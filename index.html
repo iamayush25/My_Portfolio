@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Sharma | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/x-icon" href="./images/Ayush Profile.jpeg" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="navdiv">
+      <h1>
+        <a href="/" class="gradient-hover bracketed-text">𝑨𝒚𝒖𝒔𝒉</a>
+      </h1>
+      <ul class="primary-navigation">
+        <li><a href="/">Home</a></li>
+        <li><a href="#MyAbout">About</a></li>
+        <li><a href="#MySkills">Skills</a></li>
+        <li><a href="#MyProjects">Projects</a></li>
+        <li><a href="#MyContact">Contact</a></li>
+      </ul>
+
+
+      <!-- Side panel -->
+
+      <div id="mySidepanel" class="sidepanel mobileBar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        </a>
+        <a href="/">Home</a>
+        <a href="#MyAbout">About</a>
+        <a href="#MySkills">Skills</a>
+        <a href="#MyProjects">Projects</a>
+        <a href="#MyContact">Contact</a>
+      </div>
+
+      <button class="openbtn fa-solid fa-bars mobileBar" id="menubtn" onclick="openNav()"></button>
+    </div>
+  </nav>
+  <div id="Home">
+    <div class="content">
+      <p class="subtitle">HELLO</p>
+      <h1 class="title">
+        I'm <span>Ayush<br /></span> A Web Developer
+      </h1>
+      <p class="description">
+        Welcome to my web developer portfolio! I'm Ayush, a skilled and
+        creative web developer with a passion for creating beautiful,
+        responsive, and user-friendly websites.
+      </p>
+      <div class="action__btns">
+        <button class="hire__me fa-brands fa-linktree" onclick="window.open('https://linktr.ee/iamayush25')">
+            Linktree
+        </button>
+        <button class="hire__me fa-brands fa-github" onclick="window.open('https://github.com/iamayush25')">
+            Github
+        </button>
+        <button class="hire__me portfolio fa-solid fa-check-double"
+            onclick="window.open('https://drive.google.com/file/d/1bGx3qsP-GYsEabvHtExuGArnHsyApbTA/view?usp=sharing')">
+            My Resume
+        </button>
+    </div>
+    
+    </div>
+    <div class="homeIn2">
+      <div class="box">
+        <div class="content">
+          <img src="./images/Ayush Profile.jpeg" alt="Profile" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="hrLine" id="MyAbout" />
+  <div id="about">
+    <div>
+      <h1>About me,</h1>
+      <h3 id="output"><span>Greetings, </span> <br /> I'm Ayush .</h3>
+      <div id="AllaboutMe">
+        <p class="aboutMe"><span>Welcome! 👋 I'm Ayush Sharma , a dedicated professional with a background in Economics
+            and
+            recent completion
+            of a web development program at Hyper Verge Academy.
+          </span>
+
+
+        <p class="aboutMe"><span>🎓 I hold a post-graduation degree in Economics and have recently completed an
+            intensive web development
+            course at Hyper Verge Academy. Throughout the program, I gained hands-on experience in HTML, CSS,
+            JavaScript,
+            and React.js, enabling me to build responsive and dynamic websites and web applications.</span></p>
+
+        <p class="aboutMe ><span>🚀 I am passionate about leveraging my skills in web development to create impactful solutions. Whether it's
+              crafting engaging user experiences or developing innovative web applications, I am committed to delivering
+              excellence in everything I do.</span></p>
+
+          
+
+          <p class=" aboutMe><span>🌟 Outside of work, I enjoy traditional photography, playing cricket, and listening
+            to music. I'm always eager
+            to learn and explore new technologies and ideas.</p></span></p>
+
+      </div>
+
+    </div>
+  </div>
+  <hr class="hrLine" id="MySkills" />
+  <div class="Mainskills">
+    <h1>My Skills</h1>
+    <div class="starhr">
+      <hr />
+      <i class="fa-solid fa-star" style="color: #ffce45"></i>
+      <hr />
+    </div>
+    <div class="skills_iKnow">
+      <div>
+        <img src="./images/html.png" alt="" />
+        <h2>HTML</h2>
+      </div>
+      <div>
+        <img src="./images/css.png" alt="" />
+        <h2>CSS</h2>
+      </div>
+      <div>
+        <img src="./images/javascript.png" alt="" />
+        <h2>JavaScript</h2>
+      </div>
+      <div>
+        <img src="./images/react.png" alt="" />
+        <h2>React</h2>
+      </div>
+    </div>
+  </div>
+  <hr class="hrLine" id="MyProjects" />
+  <div class="main_projects">
+    <h1>My Projects</h1>
+    <div class="starhr">
+      <hr />
+      <i class="fa-solid fa-star" style="color: #ffce45"></i>
+      <hr />
+    </div>
+
+    <!-- first Project -->
+    <div class="first_Project">
+      <div>
+        <a href="https://github.com/iamayush25/News_website--ReactJs-/tree/master/News%20Website" target="_blank">
+          <img src="./images/News Web.png" alt="news web" />
+        </a>
+        <div class="btns_pr1">
+          <!-- <i class="fa-solid fa-star" style="color: #ffce45"></i> -->
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS, JavaScript , React🚀
+          </h4>
+          <button
+            onclick="window.open('https://github.com/iamayush25/News_website--ReactJs-/tree/master/News%20Website')">
+            Visit Website
+          </button>
+          <button
+            onclick="window.open('https://github.com/iamayush25/News_website--ReactJs-/tree/master/News%20Website')">
+            Source Code
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2>🌐🤝News Application</h2>
+        <p>
+          "The news website project boasts a user-friendly interface featuring top headlines upon
+          opening and a dynamic search function for personalized news access. It offers responsive
+          design and intuitive category navigation for seamless exploration. Leveraging React's
+          efficiency, it provides dynamic content updates without compromising speed, alongside
+          accessibility features promoting inclusivity.
+        </p>
+        <ul>
+          <h4>&#128273;Key Features:</h4>
+          <li>&#9734; User-friendly interface with top headlines.</li>
+          <li>&#9734; Dynamic search for personalized news access.</li>
+          <li>&#9734; Responsive design and intuitive category navigation..</li>
+          <li>
+            &#9734; Accessibility features promote inclusivity for all users.
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Second Project -->
+
+
+    <div class="first_Project">
+      <div>
+        <a href="https://github.com/iamayush25/Dictionary-web-app" target="_blank">
+          <img src="images/Dictionary.png" alt="Dictionary" />
+        </a>
+        <div class="btns_pr1">
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS, JavaScript🚀
+          </h4>
+          <button onclick="window.open('https://iamayush25.github.io/Dictionary-web-app/')">
+            Visit Website
+          </button>
+          <button onclick="window.open('https://github.com/iamayush25/Dictionary-web-app')">
+            Source Code
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2>Dictionary Web App</h2>
+        <p>
+          Engineered a Dictionary Web App utilizing HTML, CSS, and JavaScript. This application
+          interacts with an API to swiftly retrieve and display a range of word information, including
+          definitions, synonyms, examples, and parts of speech. Its user-friendly interface enables
+          seamless word exploration, showcasing my proficiency in front-end development and API
+          integration.
+        </p>
+        <ul>
+          <h4>&#128273;Key Features:</h4>
+          <li>&#9734; API Interaction: Swiftly retrieves and displays comprehensive word information, including
+            definitions, synonyms, examples, and parts of speech, by interacting with an external API.🌟</li>
+
+        </ul>
+      </div>
+    </div>
+
+    <!-- Third Project -->
+
+    <div class="first_Project">
+      <div>
+        <a href="https://github.com/iamayush25/Music-Player-project" target="_blank">
+          <img src="./images/music player.png" alt="music player" />
+        </a>
+        <div class="btns_pr1">
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS, JavaScript🚀
+          </h4>
+          <button onclick="window.open('https://iamayush25.github.io/Music-Player-project/')">
+            Visit Website
+          </button>
+          <button onclick="window.open('https://github.com/iamayush25/Music-Player-project')">
+            Source Code
+          </button>
+        </div>
+      </div>
+      <div>
+        <h2>🎵Music Player: Your Personalized Music Journey 🚀</h2>
+        <p>
+          In the Music Player project, a dynamic music player was developed using HTML, CSS, and
+          JavaScript, integrating data from an external API. The player features essential music controls
+          such as play, pause, and search functionalities, allowing users to enjoy their favorite songs with
+          ease. Users can search for specific songs, enhancing personalization and user experience. This
+          project showcases proficiency in front-end development and API integration, delivering a
+          dynamic and user-friendly music player.
+        </p>
+        <ul>
+          <h4>&#128273;Key Features:</h4>
+          <li>&#9734; Integration of data from an external API 🌟</li>
+          <li>&#9734; Access to a wide range of songs and artists 🚀</li>
+          <li>&#9734; Essential music controls including play, pause, and search </li>
+          <li>
+            &#9734; Enhanced personalization and user experience through song search functionality
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="three_projects">
+      <h1>Practice Projects</h1>
+      <div class="project_1">
+        <img src="./images/Geeks.png" alt="" />
+        <div class="btns_pr1">
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS 🚀
+          </h4>
+          <button onclick="window.open('https://github.com/iamayush25/Portfolio-Geeks-For-Geeks')">
+            Explore Project
+          </button>
+        </div>
+      </div>
+      <div class="Project_2">
+        <img src="./images/Calculator.png" alt="" />
+        <div class="btns_pr1">
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS 🚀
+          </h4>
+          <button onclick="window.open('https://github.com/iamayush25/Calculator-Clone')">
+            Explore Project
+          </button>
+        </div>
+      </div>
+      <div class="project_3">
+        <img src="./images/Swiggy.png" alt="" />
+        <div class="btns_pr1">
+          <h4>
+            <span><i class="fa-solid fa-star" style="color: #ffce45"></i>By
+              using,</span>
+            HTML, CSS 🚀
+          </h4>
+          <button onclick="window.open('https://github.com/iamayush25/Swiggy-Clone')">
+            Explore Project
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="hrLine" id="MyContact" />
+  <div class="myContact">
+    <h1>
+      < Lets Work Together />
+    </h1>
+    <h2>”</h2>
+    <br>
+    <h3>
+      One of my favorite things about developing web applications is the
+      variety in projects. So if you want to collaborate or have some work for
+      me , get in touch and tell me what you have in mind.
+      <br />
+      — <span>I can’t wait to hear all about it!</span>
+    </h3>
+
+
+    <div class="contactsDetails">
+      <div class="info">
+        <h4>Contact</h4>
+        <img class="info-img" src="/images/phone-icon.png" alt="">
+        <h4>+91 9993551109</h4>
+      </div>
+      <div class="info">
+        <h4>Email</h4>
+        <img class="info-img" onclick="window.open('ayush22@navgurukul.org')" src="/images/Email-icon.png" alt="">
+        <h4>ayush22@navgurukul.org</h4>
+      </div>
+      <div class="info">
+        <h4>Github</h4>
+        <img class="info-img"  onclick="window.open('https://github.com/iamayush25')" src="/images/gitHub-logo.png" alt="">
+        <h3 class="visit-links" onclick="window.open('https://github.com/iamayush25')">Visit</h3>
+      </div>
+      <div class="info">
+        <h4>LinkedIn</h4>
+        <img class="info-img" onclick="window.open('https://github.com/iamayush25')" src="/images/LinkedIn-Logo.png" alt="">
+        <h3 class="visit-links" onclick="window.open('https://github.com/iamayush25')">Visit</h3>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div>
+      <a href="/">
+        <h2>Ayush#Web Developer</h2>
+      </a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#MyAbout">About</a></li>
+        <li><a href="#MySkills">Skills</a></li>
+        <li><a href="#MyProjects">Projects</a></li>
+        <li><a href="#MyContact">Contact</a></li>
+      </ul>
+
+      <div class="icons_cont">
+        <i class="fa-brands fa-linkedin" onclick="window.open('https://www.linkedin.com/in/ayushsharma25/')">
+        </i>
+        <i class="fa-brands fa-square-github" onclick="window.open('https://github.com/iamayush25')"></i>
+        <i class="fa-solid fa-square-envelope" onclick="window.open('ayush22@navgurukul.org')"></i>
+        <i class="fa-brands fa-square-instagram"
+          onclick="window.open('https://www.instagram.com/_mr_ashu_25/?igsh=MXBjZHl3Z21sMDQ4MQ%3D%3D')"></i>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<script src="script.js"></script>
