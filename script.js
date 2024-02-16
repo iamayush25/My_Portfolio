@@ -29,9 +29,6 @@ setInterval(animateText, delay);
 animateText(0);
 
 function redirectToEmail() {
-  // Replace recipient@example.com with the actual email address
   var emailRecipient = "ayush22@navgurukul.org";
-
-  // Use the 'mailto' URL scheme to open the default email client
   window.open("mailto:" + emailRecipient, "_blank");
 }
