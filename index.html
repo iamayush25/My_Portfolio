@@ -28,17 +28,15 @@
 
       <!-- Side panel -->
 
-      <div id="mySidepanel" class="sidepanel mobileBar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
-        </a>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeBtn()">&times;</a>
         <a href="./">Home</a>
-        <a href="#MyAbout">About</a>
-        <a href="#MySkills">Skills</a>
-        <a href="#MyProjects">Projects</a>
-        <a href="#MyContact">Contact</a>
-      </div>
-      <button class="openbtn fa-solid fa-bars mobileBar" id="menubtn" onclick="openNav()"></button>
+        <a href="#MyAbout" onclick="closeBtn()">About</a>
+        <a href="#MySkills" onclick="closeBtn()">Skills</a>
+        <a href="#MyProjects" onclick="closeBtn()">Projects</a>
+        <a href="#MyContact" onclick="closeBtn()">Contact</a>
     </div>
+    <button class="openbtn" id="menubtn" onclick="openNav()">&#9776;</button>
   </nav>
   <div id="Home">
     <div class="content">
@@ -77,28 +75,26 @@
   <div id="about">
     <div>
       <h1>About me,</h1>
-      <h3 id="output"><span>Greetings, </span> <br /> I'm Ayush .</h3>
+      <h3 id="output"><span>Greetings, </span></h3>
       <div id="AllaboutMe">
-        <p class="aboutMe"><span>Welcome! 👋 I'm Ayush Sharma , a dedicated professional with a background in Economics
+        <p class="aboutMe"><span>Welcome! <br> I'm Ayush Sharma , a dedicated professional with a background in Economics
             and
             recent completion
             of a web development program at Hyper Verge Academy.
           </span>
 
 
-        <p class="aboutMe"><span>🎓 I hold a post-graduation degree in Economics and have recently completed an
+        <p class="aboutMe"><span>I hold a post-graduation degree in Economics and have recently completed an
             intensive web development
             course at Hyper Verge Academy. Throughout the program, I gained hands-on experience in HTML, CSS,
             JavaScript,
             and React.js, enabling me to build responsive and dynamic websites and web applications.</span></p>
 
-        <p class="aboutMe ><span>🚀 I am passionate about leveraging my skills in web development to create impactful solutions. Whether it's
+        <p class="aboutMe ><span> I am passionate about leveraging my skills in web development to create impactful solutions. Whether it's
               crafting engaging user experiences or developing innovative web applications, I am committed to delivering
               excellence in everything I do.</span></p>
 
-          
-
-          <p class=" aboutMe><span>🌟 Outside of work, I enjoy traditional photography, playing cricket, and listening
+          <p class=" aboutMe><span> Outside of work, I enjoy traditional photography, playing cricket, and listening
             to music. I'm always eager
             to learn and explore new technologies and ideas.</p></span></p>
 

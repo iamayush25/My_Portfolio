@@ -205,7 +205,7 @@ nav {
 }
 
 .openbtn:hover {
-  background-color: #F2789F;
+  background-color: #caf0f818;
   /* background-color:#444; */
 }
 
@@ -301,7 +301,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 0.3s;
+  transition: all 1s;
   box-sizing: border-box;
 }
 
@@ -385,16 +385,7 @@ img {
 }
 
 
-
-
-
-
-#hire__me {
-  background: #FFCE45;
-  border-color: #FFCE45;
-}
-
-#hire__me:hover {
+.hire__me:hover {
   background-color: #F6C6EA;
   border-color: #F6C6EA;
 }
@@ -417,10 +408,7 @@ img {
 
 #about>div {
   width: 84%;
-
-
   margin: auto;
-
   font-family: 'Varela Round', sans-serif;
 }
 
@@ -533,13 +521,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 90%;
-
   margin: auto;
-
   text-align: center;
-
   margin: 100px auto;
 
 }
@@ -551,6 +535,7 @@ img {
 
 .skills_iKnow>div>img {
   width: 60%;
+  transition: 0.9s;
 }
 
 .skills_iKnow>div>img+h2 {
@@ -569,7 +554,7 @@ img {
 
 .skills_iKnow>div:hover h2 {
   opacity: 1;
-  transition: opacity 0.3s;
+  transition: opacity 0.8s;
 }
 
 .skills_iKnow>div:hover {
@@ -579,6 +564,19 @@ img {
 
 .skills_iKnow>div:hover img {
   width: 65%;
+  transform: scale(1.1) rotate(3deg);
+
+}
+
+@keyframes animate {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 
 }
 
