@@ -12,4 +12,3 @@ function openNav() {
 function closeBtn() {
   document.getElementById("mySidepanel").style.width = "0";
 }
-
