@@ -254,7 +254,7 @@ img {
   content: '';
   position: absolute;
   inset: -20px 100px;
-  background: linear-gradient(315deg, #00ccff, #d400d4  );
+  background: linear-gradient(315deg, #00ccff, #d400d4 );
   transition: 0.5s;
   animation: animate 1s linear infinite;
 }
@@ -517,21 +517,24 @@ img {
   margin: 0 2%;
 }
 
+
 .skills_iKnow {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: auto;
-  text-align: center;
   margin: 100px auto;
-
+  /* border: 2px solid black; */
+  /* padding: 20px;  */
 }
 
-.skills_iKnow>div {
+.skills_iKnow > div {
   width: 25%;
-
+  text-align: center;
+  margin-bottom: 20px;
 }
+
 
 .skills_iKnow>div>img {
   width: 60%;
