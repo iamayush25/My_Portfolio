@@ -799,7 +799,7 @@ img {
   white-space: nowrap;
   margin: 0;
   font-size: 20px;
-  animation: typing 2s steps(20) infinite;
+  animation: typing 3s steps(25) infinite;
   max-width: fit-content;
 
   margin-top: 20px;
