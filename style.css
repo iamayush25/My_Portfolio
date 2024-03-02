@@ -6,7 +6,6 @@ body {
   max-width: 1800px;
   margin: auto;
   background-color: #fff;
-  /* background-color: #FFEEF4; */
 }
 
 * {
@@ -31,7 +30,6 @@ nav {
 
 #navbar {
   background: transparent;
-  /* background-color: #B4BDFF; */
   background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
   height: 80px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -40,11 +38,8 @@ nav {
 
 #navdiv {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   width: 80%;
   height: 100%;
   margin: auto;
@@ -59,7 +54,6 @@ nav {
 }
 
 .aboutMe {
-  /* border: 2px solid black; */
   font-size: larger;
   margin: 1em;
   text-align: justify;
@@ -83,6 +77,7 @@ nav {
   color: #551A8B;
   font-weight: bold;
   text-decoration: overline;
+
 }
 
 
@@ -99,49 +94,6 @@ nav {
 
 .gradient-hover:hover {
   mask-position: 100% 0;
-}
-
-.bracketed-text {
-  position: relative;
-}
-
-.bracketed-text::before {
-
-  left: -45px;
-
-
-}
-
-.bracketed-text::before,
-.bracketed-text::after {
-  content: "<";
-  position: absolute;
-  top: 0;
-  color: transparent;
-  transition: color .4s ease;
-  margin-right: 150px;
-}
-
-.bracketed-text::after {
-  content: "/>";
-
-  left: 200px;
-}
-
-.bracketed-text:hover::before {
-
-  color: #1a1f34;
-
-}
-
-.bracketed-text:hover::after {
-  color: #6b5d7f;
-}
-
-.bracketed-text:hover span {
-  display: none;
-
-  transition: display 0.1s ease;
 }
 
 
@@ -176,16 +128,12 @@ nav {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  /* color: #111; */
   color: #818181;
   display: block;
   transition: 0.3s;
   font-family: 'Ubuntu', sans-serif
 }
 
-.sidepanel a:hover {
-  color: #72A0C1;
-}
 
 .sidepanel .closebtn {
   position: absolute;
@@ -199,16 +147,11 @@ nav {
   font-size: 20px;
   cursor: pointer;
   background-color: transparent;
-  /* background-color: #111; */
   color: white;
   padding: 10px 15px;
   border: none;
 }
 
-.openbtn:hover {
-  background-color: #caf0f818;
-  /* background-color:#444; */
-}
 
 .mobileBar {
   display: none;
