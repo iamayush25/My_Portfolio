@@ -62,7 +62,7 @@ nav {
   display: block;
   color: rgba(0, 0, 0, 0.733); 
   padding: 15px 20px;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: bold;
   text-decoration: none;
   position: relative; 
@@ -302,6 +302,10 @@ img {
   flex-direction: column;
   justify-content: center;
   font-family: 'Varela Round', sans-serif;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  /* border: 2px solid black; */
 }
 
 
@@ -310,6 +314,7 @@ img {
   color: #6b7280;
   font-weight: 600;
   margin-bottom: 0.5rem;
+  
 }
 
 .title {
