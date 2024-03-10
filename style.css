@@ -563,7 +563,7 @@ img {
   width: 50%;
   margin: 50px auto;
   padding: 10px;
-  text-align: left;
+  /* text-align: left; */
   text-align: justify;
 
 }
