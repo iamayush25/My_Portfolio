@@ -32,7 +32,7 @@ nav {
   background: transparent;
   background-color : rgba(232, 230, 230, 0.571);
   height: 80px;
-   backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
 
 #navdiv {
@@ -141,27 +141,50 @@ nav {
 
 
 .sidepanel {
+  margin: 0;
   width: 0;
   position: fixed;
   z-index: 1;
-  height: 250px;
-  top: 0;
-  left: 0;
+  top: 79px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #caf0f8c6;
   overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+  transition: 1.5s;
+  padding-top: 40px;
 }
 
 
+.sidepanel {
+  margin: 0;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  /* height: 250px; */
+  top: 79px;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #caf0f8c6;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 1.5s;
+  padding-top: 40px;
+}
+
 .sidepanel a {
-  padding: 8px 8px 8px 32px;
+  padding-bottom: 25px;
+  margin-bottom: 13px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 15px;
   color: #818181;
   display: block;
   transition: 0.3s;
-  font-family: 'Ubuntu', sans-serif
+  font-family: 'Ubuntu', sans-serif;
+  overflow: hidden;
 }
 
 
@@ -420,17 +443,12 @@ img {
 
 }
 
-
 .Mainskills>h1 {
-
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 2.5px;
-
   font-weight: bolder;
-
   margin-top: 30px;
-
   color: #071952;
 }
 
@@ -439,30 +457,20 @@ img {
 }
 
 .starhr {
-
   display: flex;
-
   width: 20%;
-
   margin: auto;
-
   align-items: center;
-
-
 }
 
 .starhr>hr {
-
   width: 50%;
-
   height: 3.5px;
   background-color: #80B3FF;
-
   border: none;
 }
 
 .starhr>i {
-
   margin: 0 2%;
 }
 
@@ -472,14 +480,14 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin: 100px auto;
   /* border: 2px solid black; */
   /* padding: 20px;  */
 }
 
 .skills_iKnow>div {
-  width: 25%;
+  width: 15%;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -493,10 +501,12 @@ img {
 .skills_iKnow>div>img+h2 {
   opacity: 0;
   color: #12486B;
+  font-size: large;
   font-family: 'Rubik', sans-serif;
   font-weight: bolder;
   border-bottom: 2px solid #12486B;
   border-radius: 10px;
+
 }
 
 
@@ -612,46 +622,30 @@ img {
 
 .btns_pr1>button {
   padding: 8px;
-
   margin-left: 10px;
-
   background-color: #fdbc08;
-
   color: #071952;
   border: none;
-
   font-weight: bold;
-
   border-radius: 5px;
 }
 
 .btns_pr1 {
   display: flex;
   justify-content: space-between;
-
   align-items: center;
 }
 
 .btns_pr1>button:hover {
-
   cursor: alias;
-
   background-color: transparent;
-
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-
-
-
 }
 
 .three_projects {
-
   margin: auto;
-
   text-align: center;
-
   padding: 10px;
-
 }
 
 .three_projects>h1 {
@@ -662,36 +656,24 @@ img {
 
 .three_projects>div>img {
   width: 40%;
-
   border: 2px solid;
-
   border-radius: 10px;
-
-
 }
 
 .three_projects>div>div {
   width: 40%;
-
   margin: 20px auto;
-
   margin-bottom: 30px;
-
   border-bottom: 2px solid;
-
   border-radius: 5px;
 }
 
 .myContact {
-
   width: 80%;
-
   padding: 10px;
-
   margin: auto;
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
   margin-bottom: 100px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   border-radius: 10px;
@@ -848,7 +830,7 @@ footer>div>a {
   }
 
   .sidepanel {
-    height: 350px;
+    height: 5%;
   }
 
   #Home {
@@ -940,13 +922,11 @@ footer>div>a {
 
   .skills_iKnow {
     display: block;
-
     width: 90%;
   }
 
   .skills_iKnow>div {
     width: 80%;
-
     margin: 100px auto;
   }
 
@@ -961,7 +941,6 @@ footer>div>a {
   }
 
   .main_projects {
-
     padding: 5px;
 
   }
@@ -975,11 +954,8 @@ footer>div>a {
   .first_Project>div {
 
     width: 100%;
-
     margin: 10px auto;
-
     padding: 10px 5px;
-
     text-align: center;
 
 
@@ -993,25 +969,19 @@ footer>div>a {
   .btns_pr1>h4 {
 
     font-size: 14px;
-
     margin: 10px auto;
   }
 
   .first_Project>div:nth-child(2)>h2 {
     font-size: 18px;
-
     text-align: left;
   }
 
 
   .first_Project>div:nth-child(2)>p {
     margin: 8px auto;
-
     text-align: left;
-
     font-size: 14px;
-
-
   }
 
   .first_Project>div:nth-child(2)>ul {
@@ -1020,9 +990,7 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>ul>li {
     margin-left: 15px;
-
     padding: 0;
-
   }
 
 
@@ -1041,52 +1009,36 @@ footer>div>a {
 
   footer {
     padding: 10px;
-
     text-align: center;
   }
 
   footer>div {
     display: block;
-
     margin: auto;
   }
 
   footer>div>ul {
 
     display: block;
-
     margin: auto;
-
   }
 
   footer>div>ul>li {
     list-style: none;
-
     margin: 10px;
-
   }
 
   footer>div>a>h2 {
 
     font-size: 1rem;
-
     letter-spacing: .5px;
   }
-
-
 
   .icons_cont>i {
 
     margin: 10px;
-
     font-size: 20px;
-
   }
-
-
-
-
-
 }
 
 @media screen and (min-width: 351px) and (max-width:460px) {
@@ -1113,7 +1065,6 @@ footer>div>a {
 
     width: 250px;
     height: 250px;
-
     margin-top: 70px;
     margin: 50px auto;
   }
@@ -1139,42 +1090,33 @@ footer>div>a {
   }
 
 
-
-
   .action__btns {
     margin: auto;
   }
 
   .action__btns button {
     margin: auto;
-
     margin: 1%;
-
     width: 120px;
   }
 
   .starhr {
-
     width: 60%;
   }
 
   .skills_iKnow {
     display: block;
-
     width: 90%;
   }
 
   .skills_iKnow>div {
     width: 80%;
-
     margin: 100px auto;
   }
 
   .skills_iKnow>div>img {
     width: 80%;
-
   }
-
 
   .skills_iKnow>div:hover img {
     width: 90%;
@@ -1183,30 +1125,21 @@ footer>div>a {
 
 
   .main_projects {
-
     padding: 5px;
-
   }
 
   .first_Project {
-
     width: 100%;
     display: block;
   }
 
 
-
   .first_Project>div {
 
     width: 100%;
-
     margin: 10px auto;
-
     padding: 10px 5px;
-
     text-align: center;
-
-
   }
 
   .btns_pr1>i {
@@ -1217,25 +1150,19 @@ footer>div>a {
   .btns_pr1>h4 {
 
     font-size: 14px;
-
     margin: 10px auto;
   }
 
   .first_Project>div:nth-child(2)>h2 {
     font-size: 18px;
-
     text-align: left;
   }
 
 
   .first_Project>div:nth-child(2)>p {
     margin: 8px auto;
-
     text-align: left;
-
     font-size: 14px;
-
-
   }
 
   .first_Project>div:nth-child(2)>ul {
@@ -1244,9 +1171,7 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>ul>li {
     margin-left: 15px;
-
     padding: 0;
-
   }
 
 
@@ -1256,58 +1181,42 @@ footer>div>a {
 
   .three_projects>div>img {
     width: 70%;
-
   }
 
   .three_projects>div>div {
     width: 80%;
-
   }
 
   footer {
     padding: 10px;
-
     text-align: center;
   }
 
   footer>div {
     display: block;
-
     margin: auto;
   }
 
   footer>div>ul {
-
     display: block;
-
     margin: auto;
 
   }
-
   footer>div>ul>li {
     list-style: none;
-
     margin: 10px;
-
   }
 
   footer>div>a>h2 {
-
     font-size: 1rem;
-
     letter-spacing: .5px;
   }
-
-
 
   .icons_cont>i {
 
     margin: 10px;
-
     font-size: 20px;
-
   }
-
 }
 
 @media screen and (min-width: 461px) and (max-width:600px) {
@@ -1316,12 +1225,10 @@ footer>div>a {
     display: block;
   }
 
-
   #menubtn {
     display: block;
     color: #111;
   }
-
 
   #navdiv>ul {
     display: none;
@@ -1329,14 +1236,12 @@ footer>div>a {
 
   #Home {
     display: block;
-
   }
 
   .box {
 
     width: 300px;
     height: 300px;
-
     margin-top: 70px;
     margin: 50px auto;
   }
@@ -1379,13 +1284,11 @@ footer>div>a {
 
     .skills_iKnow {
       display: block;
-
       width: 90%;
     }
 
     .skills_iKnow>div {
       width: 70%;
-
       margin: 100px auto;
     }
 
@@ -1401,13 +1304,11 @@ footer>div>a {
 
 
     .main_projects {
-
       padding: 5px;
 
     }
 
     .first_Project {
-
       width: 90%;
       display: block;
     }
@@ -1415,40 +1316,28 @@ footer>div>a {
     .first_Project>div {
 
       width: 100%;
-
       margin: 10px auto;
-
       padding: 10px 5px;
-
       text-align: center;
-
-
     }
 
 
 
     .btns_pr1>h4 {
-
       font-size: 16px;
-
       margin: 10px auto;
     }
 
     .first_Project>div:nth-child(2)>h2 {
       font-size: 20px;
-
       text-align: left;
     }
 
 
     .first_Project>div:nth-child(2)>p {
       margin: 10px auto;
-
       text-align: left;
-
       font-size: 16px;
-
-
     }
 
     .first_Project>div:nth-child(2)>ul {
@@ -1457,11 +1346,8 @@ footer>div>a {
 
     .first_Project>div:nth-child(2)>ul>li {
       margin-left: 15px;
-
       padding: 0;
-
     }
-
 
     .btns_pr1 {
       display: block;
@@ -1470,15 +1356,11 @@ footer>div>a {
     .three_projects>div>img {
       width: 70%;
 
-
-
     }
 
     .three_projects>div>div {
       width: 80%;
-
     }
-
 
     .GoOnTop {
       flex-direction: column;
@@ -1491,46 +1373,33 @@ footer>div>a {
 
     footer {
       padding: 10px;
-
       text-align: center;
     }
 
     footer>div {
       display: block;
-
       margin: auto;
     }
 
     footer>div>ul {
 
       display: block;
-
       margin: auto;
-
     }
 
     footer>div>ul>li {
       list-style: none;
-
       margin: 10px;
-
     }
 
     footer>div>a>h2 {
-
       font-size: 1rem;
-
       letter-spacing: .5px;
     }
 
-
-
     .icons_cont>i {
-
       margin: 10px;
-
       font-size: 20px;
-
     }
 
 
@@ -1587,18 +1456,15 @@ footer>div>a {
 
   .skills_iKnow>div:hover img {
     width: 85%;
-
   }
 
 
   .main_projects {
-
     padding: 5px;
 
   }
 
   .first_Project {
-
     width: 90%;
     display: block;
   }
@@ -1606,37 +1472,28 @@ footer>div>a {
   .first_Project>div {
 
     width: 100%;
-
     margin: 10px auto;
-
     padding: 10px;
-
     text-align: center;
-
 
   }
 
   .btns_pr1>h4 {
 
     font-size: 18px;
-
     margin: 10px auto;
   }
 
   .first_Project>div:nth-child(2)>h2 {
     font-size: 20px;
-
     text-align: left;
   }
 
 
   .first_Project>div:nth-child(2)>p {
     margin: 10px auto;
-
     text-align: left;
-
     font-size: 16px;
-
 
   }
 
@@ -1646,9 +1503,7 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>ul>li {
     margin-left: 15px;
-
     padding: 0;
-
   }
 
 
@@ -1659,52 +1514,37 @@ footer>div>a {
   .three_projects>div>img {
     width: 60%;
 
-
-
   }
 
   .three_projects>div>div {
-    width: 70%;
+    width: 70%
 
   }
 
 
   footer {
     padding: 10px;
-
     text-align: center;
   }
 
-
-
   footer>div>ul>li {
     list-style: none;
-
     margin: 10px;
-
   }
 
   footer>div>a>h2 {
-
     font-size: 1rem;
-
     letter-spacing: .5px;
   }
 
 
-
   .icons_cont>i {
-
     margin: 10px;
-
     font-size: 20px;
-
   }
-
 }
 
 @media screen and (min-width: 751px) and (max-width:900px) {
-
 
   .title {
     font-size: 1.5rem;
@@ -1724,7 +1564,6 @@ footer>div>a {
   }
 
   .starhr {
-
     width: 40%;
   }
 
@@ -1739,18 +1578,14 @@ footer>div>a {
 
   .skills_iKnow>div:hover img {
     width: 75%;
-
   }
 
 
   .main_projects {
-
     padding: 5px;
-
   }
 
   .first_Project {
-
     width: 80%;
     display: block;
   }
@@ -1758,19 +1593,12 @@ footer>div>a {
   .first_Project>div {
 
     width: 90%;
-
     margin: 10px auto;
-
     padding: 10px;
-
     text-align: center;
-
-
   }
 
   .btns_pr1>h4 {
-
-
     margin: 10px auto;
   }
 
@@ -1782,10 +1610,7 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>p {
     margin: 10px auto;
-
     text-align: left;
-
-
   }
 
   .first_Project>div:nth-child(2)>ul {
@@ -1794,7 +1619,6 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>ul>li {
     margin-left: 15px;
-
     padding: 0;
 
   }
@@ -1807,8 +1631,6 @@ footer>div>a {
   .three_projects>div>img {
     width: 50%;
 
-
-
   }
 
   .three_projects>div>div {
@@ -1816,42 +1638,29 @@ footer>div>a {
 
   }
 
-
-
-
   footer {
     padding: 10px;
-
     text-align: center;
   }
 
 
   footer>div>ul>li {
     list-style: none;
-
     margin: 10px;
-
   }
 
   footer>div>a>h2 {
 
     font-size: 1.5rem;
-
     letter-spacing: .5px;
   }
-
-
 
   .icons_cont>i {
 
     margin: 10px;
-
     font-size: 20px;
 
   }
-
-
-
 
 }
 
@@ -1886,19 +1695,13 @@ footer>div>a {
   .first_Project>div {
 
     width: 90%;
-
     margin: 10px auto;
-
     padding: 10px;
-
     text-align: center;
-
 
   }
 
   .btns_pr1>h4 {
-
-
     margin: 10px auto;
   }
 
@@ -1910,9 +1713,7 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>p {
     margin: 10px auto;
-
     text-align: left;
-
 
   }
 
@@ -1922,7 +1723,6 @@ footer>div>a {
 
   .first_Project>div:nth-child(2)>ul>li {
     margin-left: 15px;
-
     padding: 0;
 
   }
@@ -1932,24 +1732,19 @@ footer>div>a {
     display: block;
   }
 
-
   .three_projects>div>img {
     width: 40%;
-
-
 
   }
 
   footer {
     padding: 10px;
-
     text-align: center;
   }
 
 
   footer>div>ul>li {
     list-style: none;
-
     margin: 10px;
 
   }
@@ -1957,19 +1752,13 @@ footer>div>a {
   footer>div>a>h2 {
 
     font-size: 1.5rem;
-
     letter-spacing: .5px;
   }
-
-
 
   .icons_cont>i {
 
     margin: 10px;
-
     font-size: 20px;
-
   }
-
 
 }
