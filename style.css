@@ -94,67 +94,6 @@ nav {
 }
 
 
-/* .primary-navigation li ul {
-  display: none;
-  position: absolute;
-  top: calc(100% + 10px);
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #2c3e50; 
-  border-radius: 0 0 5px 5px; 
-  z-index: 999; 
-  animation: fadeInDown 0.3s ease;
-} */
-
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.primary-navigation li:hover ul {
-  display: block;
-}
-
-.primary-navigation li ul li {
-  display: block;
-}
-
-.primary-navigation li ul li a {
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 14px;
-  transition: color 0.3s;
-}
-
-.primary-navigation li ul li a:hover {
-  color: red;
-  background-color: #34495e;
-}
-
-
-.sidepanel {
-  margin: 0;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 79px;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #caf0f8c6;
-  overflow-x: hidden;
-  transition: 1.5s;
-  padding-top: 40px;
-}
 
 
 .sidepanel {
@@ -168,7 +107,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #caf0f8c6;
+  background-color: #333;
   overflow-x: hidden;
   overflow-y: hidden;
   transition: 1.5s;
@@ -180,7 +119,7 @@ nav {
   margin-bottom: 13px;
   text-decoration: none;
   font-size: 15px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
   font-family: 'Ubuntu', sans-serif;
