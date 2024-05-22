@@ -595,6 +595,7 @@ img {
 .Practice-Project {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   
 }
 
@@ -881,13 +882,16 @@ footer>div>a {
   }
 
   .skills_iKnow {
-    display: block;
-    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;    
   }
 
   .skills_iKnow>div {
     width: 80%;
     margin: 100px auto;
+    margin: 20px;
+
   }
 
   .skills_iKnow>div>img {
@@ -960,11 +964,17 @@ footer>div>a {
 
   .three_projects>div>img {
     width: 70%;
+    
   }
 
   .three_projects>div>div {
     width: 100%;
 
+  }
+
+  .Practice-Project {
+    display: flex;
+    flex-direction: column;
   }
 
   footer {
@@ -1065,17 +1075,20 @@ footer>div>a {
   }
 
   .skills_iKnow {
-    display: block;
-    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;    
   }
 
   .skills_iKnow>div {
     width: 80%;
     margin: 100px auto;
+    margin: 20px;
+
   }
 
   .skills_iKnow>div>img {
-    width: 80%;
+    width: 90%;
   }
 
   .skills_iKnow>div:hover img {
@@ -1145,6 +1158,11 @@ footer>div>a {
 
   .three_projects>div>div {
     width: 80%;
+  }
+
+  .Practice-Project {
+    display: flex;
+    flex-direction: column;
   }
 
   footer {
@@ -1405,8 +1423,17 @@ footer>div>a {
   }
 
 
+  .skills_iKnow {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;    
+  }
+
   .skills_iKnow>div {
-    width: 70%;
+    width: 80%;
+    margin: 100px auto;
+    margin: 20px;
+
   }
 
   .skills_iKnow>div>img {
@@ -1527,8 +1554,17 @@ footer>div>a {
     width: 40%;
   }
 
+  .skills_iKnow {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;    
+  }
+
   .skills_iKnow>div {
-    width: 70%;
+    width: 80%;
+    margin: 100px auto;
+    margin: 20px;
+
   }
 
   .skills_iKnow>div>img {
