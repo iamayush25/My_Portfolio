@@ -421,8 +421,7 @@ img {
   align-items: center;
   width: 100%;
   margin: 100px auto;
-  /* border: 2px solid black; */
-  /* padding: 20px;  */
+  
 }
 
 .skills_iKnow>div {
@@ -585,19 +584,41 @@ img {
   margin: auto;
   text-align: center;
   padding: 10px;
+  
 }
 
 .three_projects>h1 {
   margin: 10px auto;
-
   color: #071952;
 }
 
-.three_projects>div>img {
+.Practice-Project {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.project-1st-row {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.project-1st-row img {
+  width: 80%;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+
+}
+
+
+
+/* .three_projects>div>img {
   width: 40%;
   border: 2px solid;
   border-radius: 10px;
-}
+} */
 
 .three_projects>div>div {
   width: 40%;
