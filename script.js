@@ -5,8 +5,8 @@ function openNav() {
   if (currentWidth === "0px" || currentWidth === "") {
     sidePanel.style.width = "100%";
     sidePanel.style.height = "5%";
-  } 
-    // if sidepannel width !0px mean sidepanel is open that's why we give 0px  
+  }
+    // if sidepannel width !0px mean sidepanel is open that's why we give 0px
     else {
     sidePanel.style.width = "0";
   }
